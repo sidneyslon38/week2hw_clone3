@@ -17,7 +17,7 @@
     <div class="footer-logo">
       <a href="https://www.journalism.cuny.edu/">
         <img 
-          src="{base}/cuny-footer-logo.svg" 
+          src="{base}/coding-header.png" 
           alt="Craig Newmark Graduate School of Journalism at CUNY"
           class="cuny-logo"
         />
@@ -25,11 +25,7 @@
     </div>
     
     <!-- Footer Navigation -->
-    <nav class="footer-nav" aria-label="Footer navigation">
-      <a href="https://www.nycitynewsservice.com/about/" class="footer-link">ABOUT US</a>
-      <span class="footer-divider">|</span>
-      <a href="https://www.nycitynewsservice.com/contact/" class="footer-link">CONTACT US</a>
-    </nav>
+ 
   </div>
 </footer>
 

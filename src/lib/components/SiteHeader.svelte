@@ -14,7 +14,7 @@
     <a href="https://www.nycitynewsservice.com/" class="logo" aria-label="NYCity News Service">
       <!-- Compact HTML/CSS Logo with thin white border -->
       <span class="logo-text">
-        <span class="logo-nycity">NYCITY</span><span class="logo-news-service">News Service</span>
+        <span class="logo-nycity">And I know how to edit</span><span class="logo-news-service">EVERYTHING</span>
       </span>
     </a>
 
@@ -74,6 +74,7 @@
     padding: var(--spacing-xs) var(--spacing-sm);
     max-width: var(--max-width-wide);
     margin: 0 auto;
+    position: relative;
   }
 
   .logo {
@@ -150,8 +151,12 @@
   /* Desktop styles - show nav, space-between layout, larger logo */
   @include desktop {
     .masthead {
-      justify-content: space-between;
+      justify-content: center;
       padding: var(--font-size-xs) var(--spacing-md);
+    }
+
+    .logo {
+      margin: 0 auto;
     }
 
     .logo-nycity {
@@ -167,6 +172,8 @@
     .main-nav {
       display: flex;
       align-items: center;
+      position: absolute;
+      right: var(--spacing-md);
     }
   }
 
